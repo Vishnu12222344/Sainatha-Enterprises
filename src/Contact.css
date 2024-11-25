@@ -1,0 +1,95 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Add a background color for better contrast */
+  border-radius: 5px; /* Slightly round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  color: #1a1a1a;
+}
+
+.contact-form p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+.submit-button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background-color: #e68900;
+}
+
+.result-message {
+  margin-top: 15px; /* Add some spacing above the result message */
+  font-size: 16px;
+  color: green; /* Use a color that indicates success */
+}
+.contact-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the items */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Space between form and map */
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 400px; /* Set max width for the form */
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Background for better contrast */
+  border-radius: 5px; /* Slightly round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.map-container {
+  flex: 1; /* Allow the map to take available space */
+  max-width: 600px; /* Restrict maximum width */
+  height: 450px; /* Fixed height for the map */
+  overflow: hidden; /* Hide overflow */
+}
